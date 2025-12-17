@@ -5,11 +5,6 @@ This repository hosts exploratory notebooks for studying feature circuits that e
 ## Getting Started
 
 1. Ensure you have Python 3.10+ with JupyterLab or Jupyter Notebook installed.
-2. Clone this repository and install the Python dependencies required by your environment (for example via pip install -r requirements.txt if you choose to capture them later).
+2. Clone this repository and install the Python dependencies required by your environment.
 3. Launch Jupyter and open Method_1.ipynb to step through the analysis.
 
-## Next Steps
-
-- Capture dependencies in a equirements.txt once the experimentation stack stabilizes.
-- Add additional notebooks for new methods or ablation studies.
-- Commit plots or intermediate data products that are helpful for reproducibility.
