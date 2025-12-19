@@ -9,15 +9,3 @@ This repository hosts exploratory notebooks for studying feature circuits inside
 1. Ensure you have Python 3.10+ with JupyterLab or Jupyter Notebook installed (a GPU is optional but helpful).
 2. Clone this repository and install the Python dependencies required by your environment (either run the first cell in each notebook or `pip install transformers datasets torch scikit-learn matplotlib seaborn`).
 3. Launch Jupyter and open the notebook you want to run. `method_2.ipynb` will download the WikiText-2 train split and `distilgpt2` weights on first execution.
-
-## Outputs (method_2)
-
-- `sparsity_distribution.png`: sparsity histograms for top neurons per layer.
-- `circuits_tsne.png`: t-SNE view of clustered sparse neuron circuits.
-- `neuron_family_heatmap.png`: activation selectivity across prompt families.
-
-## Next Steps
-
-- Capture dependencies in a requirements.txt once the experimentation stack stabilizes.
-- Add additional notebooks for new methods or ablation studies.
-- Commit plots or intermediate data products that are helpful for reproducibility.
